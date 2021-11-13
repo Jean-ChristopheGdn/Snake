@@ -43,7 +43,7 @@ animationSerpent();
 creerPomme();
 
 function rafraichirCanvas() {
-    context.fillStyle = "white";
+    context.fillStyle = "#d8f5ff";
     context.strokeStyle = "black";
     context.fillRect(0, 0, canvas.width, canvas.height);
     context.strokeRect(0, 0, canvas.width, canvas.height);
