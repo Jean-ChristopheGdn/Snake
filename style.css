@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #f1f1f1;
+}
+.txt-score {
+    margin-top: 20px;
+    font-size: 30px;
+    color: blanchedalmond;
+}
+#score {
+    margin-top: 0px;
+    color: blanchedalmond;
+    font-size: 40px;
+    
+}
+#canvas {
+    margin-top: 30px;
+}
+#restart{
+    display: none;
+    color: #fefefe;
+    margin-top: 70px;
+    font-size: 30px;
+}
